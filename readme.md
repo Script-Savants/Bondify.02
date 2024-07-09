@@ -1,6 +1,6 @@
 # Bondify
 
-Welcome to SocialWave, the next-generation social media platform where connections, content, and creativity converge. Designed with the modern user in mind, SocialWave offers a seamless and engaging experience for sharing life's moments, discovering new interests, and connecting with friends and communities worldwide.
+Welcome to Bondify, the next-generation social media platform where connections, content, and creativity converge. Designed with the modern user in mind, Bondify offers a seamless and engaging experience for sharing life's moments, discovering new interests, and connecting with friends and communities worldwide.
 
 ## Features
 
