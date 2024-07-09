@@ -15,11 +15,10 @@ Welcome to SocialWave, the next-generation social media platform where connectio
 
 To get started with SocialWave, follow these simple steps:
 
-1. **Download the App:** Available on iOS and Android.
-2. **Create an Account:** Sign up with your email, phone number, or a third-party provider.
-3. **Customize Your Profile:** Add a profile picture, bio, and personal details.
-4. **Connect:** Follow friends and discover new accounts to fill your feed with content you love.
-5. **Share:** Start posting your stories and updates.
+1. **Create an Account:** Sign up with your email, phone number, or a third-party provider.
+2. **Customize Your Profile:** Add a profile picture, bio, and personal details.
+3. **Connect:** Follow friends and discover new accounts to fill your feed with content you love.
+4. **Share:** Start posting your stories and updates.
 
 ## Installation
 
