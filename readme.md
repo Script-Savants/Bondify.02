@@ -33,8 +33,6 @@ python manage.py runserver
 
 Here are some of the features we are currently working on:
 
-- **Feature 1:** Authentication . (Assigned to: @username1)
-- **Feature 2:** Brief description of the feature. (Assigned to: @username2)
-- **Feature 3:** Brief description of the feature. (Assigned to: @username3)
+- **Feature 1:** Authentication. (Assigned to: @11Faze11)
 
 Please note that these features are subject to change and may be updated, modified, or removed at any time.
