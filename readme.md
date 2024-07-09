@@ -1,6 +1,6 @@
 # Bondify
 
-Welcome to SocialWave, the next-generation social media platform where connections, content, and creativity converge. Designed with the modern user in mind, SocialWave offers a seamless and engaging experience for sharing life's moments, discovering new interests, and connecting with friends and communities worldwide.
+Welcome to Bondify, the next-generation social media platform where connections, content, and creativity converge. Designed with the modern user in mind, Bondify offers a seamless and engaging experience for sharing life's moments, discovering new interests, and connecting with friends and communities worldwide.
 
 ## Features
 
@@ -15,11 +15,10 @@ Welcome to SocialWave, the next-generation social media platform where connectio
 
 To get started with SocialWave, follow these simple steps:
 
-1. **Download the App:** Available on iOS and Android.
-2. **Create an Account:** Sign up with your email, phone number, or a third-party provider.
-3. **Customize Your Profile:** Add a profile picture, bio, and personal details.
-4. **Connect:** Follow friends and discover new accounts to fill your feed with content you love.
-5. **Share:** Start posting your stories and updates.
+1. **Create an Account:** Sign up with your email, phone number, or a third-party provider.
+2. **Customize Your Profile:** Add a profile picture, bio, and personal details.
+3. **Connect:** Follow friends and discover new accounts to fill your feed with content you love.
+4. **Share:** Start posting your stories and updates.
 
 ## Installation
 
