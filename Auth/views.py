@@ -27,6 +27,7 @@ def signup(request):
     return render(request, 'signup.html', {'form': form})
 
 
+
 def login(request):
     if request.method == 'POST':
         username = request.POST['username']
@@ -38,3 +39,8 @@ def login(request):
         else:
             messages.error(request, 'Invalid username or password')
     return render(request, 'login.html')
+
+
+
+def success(request):
+    return render(request, 'success.html')
