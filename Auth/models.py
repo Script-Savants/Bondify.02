@@ -1,9 +1,9 @@
 from django.db import models
-from django.contrib.auth.models import User
+from django.conf import settings
 
 class UserProfile(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
-    gender = models.CharField(max_length=10, choices=(('Male', 'Male'), ('Female', 'Female')))
-    bio = models.TextField(max_length=100, blank=True)
-    age = models.PositiveIntegerField()
-    location = models.CharField(max_length=100)
+    user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    # Additional fields can be added here
+
+    def __str__(self):
+        return self.user.username
