@@ -28,3 +28,11 @@ For developers looking to contribute or explore the SocialWave codebase:
 cd Bondify
 pip install -r requirements.txt
 python manage.py runserver
+```
+## Upcoming Features
+
+Here are some of the features we are currently working on:
+
+- **Feature 1:** Authentication. (Assigned to: @11Faze11)
+
+Please note that these features are subject to change and may be updated, modified, or removed at any time.
