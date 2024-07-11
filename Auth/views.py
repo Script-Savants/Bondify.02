@@ -4,6 +4,8 @@ from django.contrib.auth import authenticate, login, logout
 from .forms import CreateUserForm
 from django.contrib.auth import authenticate, login as auth_login
 from django.contrib.auth.decorators import login_required
+from django.http import HttpResponse
+
 def signup(request):
     if request.method == 'POST':
         form = CreateUserForm(request.POST)
@@ -39,6 +41,11 @@ def login(request):
 @login_required(login_url='login')
 def success(request):
     return render(request, 'success.html')
+
+
+def logoutUser(request):
+    logout(request)
+    return redirect('login')
 
 
 
