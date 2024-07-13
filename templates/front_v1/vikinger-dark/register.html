@@ -1,0 +1,193 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from odindesignthemes.com/vikinger-dark/badges.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Jul 2024 09:37:28 GMT -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- bootstrap 4.3.1 -->
+  <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+  <!-- styles -->
+  <link rel="stylesheet" href="{% static 'css/styles.min.css' %}">
+  <!-- simplebar styles -->
+  <link rel="stylesheet" href="{% static 'css/vendor/simplebar.css' %}">
+  <!-- favicon -->
+  <link rel="icon" href="img/favicon.ico">
+  <title>Bondify | Register</title>
+</head>
+<body>
+
+  <!-- LANDING -->
+  <div class="landing">
+    <!-- LANDING DECORATION -->
+    <div class="landing-decoration"></div>
+    <!-- /LANDING DECORATION -->
+
+    <!-- LANDING INFO -->
+    <div class="landing-info">
+      <!-- LOGO -->
+      <div class="logo">
+        <!-- ICON LOGO VIKINGER -->
+        <svg class="icon-logo-vikinger">
+          <use xlink:href="#svg-logo-vikinger"></use>
+        </svg>
+        <!-- /ICON LOGO VIKINGER -->
+      </div>
+      <!-- /LOGO -->
+
+      <!-- LANDING INFO PRETITLE -->
+      <h2 class="landing-info-pretitle">Welcome to</h2>
+      <!-- /LANDING INFO PRETITLE -->
+
+      <!-- LANDING INFO TITLE -->
+      <h1 class="landing-info-title">Bondify</h1>
+      <!-- /LANDING INFO TITLE -->
+
+      <!-- LANDING INFO TEXT -->
+      <p class="landing-info-text">The next generation social network &amp; community! Connect with your friends and play with our quests and badges gamification system!</p>
+      <!-- /LANDING INFO TEXT -->
+
+      <!-- TAB SWITCH -->
+      <div class="tab-switch">
+        <!-- TAB SWITCH BUTTON -->
+        <p class="tab-switch-button login-register-form-trigger">Login</p>
+        <!-- /TAB SWITCH BUTTON -->
+
+        <!-- TAB SWITCH BUTTON -->
+        <p class="tab-switch-button login-register-form-trigger">Register</p>
+        <!-- /TAB SWITCH BUTTON -->
+      </div>
+      <!-- /TAB SWITCH -->
+    </div>
+    <!-- /LANDING INFO -->
+
+    <!-- LANDING FORM -->
+    <div class="landing-form">
+      <!-- FORM BOX -->
+      <div class="form-box login-register-form-element">
+        <!-- FORM BOX DECORATION -->
+        <img class="form-box-decoration" src="img/landing/rocket.png" alt="rocket">
+        <!-- /FORM BOX DECORATION -->
+
+        <!-- FORM BOX TITLE -->
+        <h2 class="form-box-title">Create your Account!</h2>
+        <!-- /FORM BOX TITLE -->
+    
+        <!-- FORM -->
+        <form class="form"  method="POST" action="">
+            {% csrf_token %}
+          <!-- FORM ROW -->
+          <div class="form-row">
+            <!-- FORM ITEM -->
+            <div class="form-item">
+              <!-- FORM INPUT -->
+              <div class="form-input">
+                <label for="email">Your Email</label>
+                  {{ form.email }}
+              </div>
+              <!-- /FORM INPUT -->
+            </div>
+            <!-- /FORM ITEM -->
+          </div>
+          <!-- /FORM ROW -->
+    
+          <!-- FORM ROW -->
+          <div class="form-row">
+            <!-- FORM ITEM -->
+            <div class="form-item">
+              <!-- FORM INPUT -->
+              <div class="form-input">
+                <label for="username">Username</label>
+                {{ form.username }}
+              </div>
+              <!-- /FORM INPUT -->
+            </div>
+            <!-- /FORM ITEM -->
+          </div>
+          <!-- /FORM ROW -->
+    
+          <!-- FORM ROW -->
+          <div class="form-row">
+            <!-- FORM ITEM -->
+            <div class="form-item">
+              <!-- FORM INPUT -->
+              <div class="form-input">
+                <label for="register-password">Password</label>
+               {{ form.password1 }}
+              </div>
+              <!-- /FORM INPUT -->
+            </div>
+            <!-- /FORM ITEM -->
+          </div>
+          <!-- /FORM ROW -->
+    
+          <!-- FORM ROW -->
+          <div class="form-row">
+            <!-- FORM ITEM -->
+            <div class="form-item">
+              <!-- FORM INPUT -->
+              <div class="form-input">
+                <label for="register-password-repeat">Repeat Password</label>
+                {{ form.password2 }}
+              </div>
+              <!-- /FORM INPUT -->
+            </div>
+            <!-- /FORM ITEM -->
+          </div>
+          <!-- /FORM ROW -->
+    
+          <!-- FORM ROW -->
+          <div class="form-row">
+            <!-- FORM ITEM -->
+            <div class="form-item">
+              <!-- CHECKBOX WRAP -->
+              <div class="checkbox-wrap">
+                <input type="checkbox" id="register-newsletter" name="register_newsletter" checked>
+                <!-- CHECKBOX BOX -->
+                <div class="checkbox-box">
+                  <!-- ICON CROSS -->
+                  <svg class="icon-cross">
+                    <use xlink:href="#svg-cross"></use>
+                  </svg>
+                  <!-- /ICON CROSS -->
+                </div>
+                <!-- /CHECKBOX BOX -->
+                <label for="register-newsletter">Send me news and updates via email</label>
+              </div>
+              <!-- /CHECKBOX WRAP -->
+            </div>
+            <!-- /FORM ITEM -->
+          </div>
+          <!-- /FORM ROW -->
+    
+          <!-- FORM ROW -->
+          <div class="form-row">
+            <!-- FORM ITEM -->
+            <div class="form-item">
+              <!-- BUTTON -->
+              <button class="button medium primary">Register Now!</button>
+              <!-- /BUTTON -->
+            </div>
+            <!-- /FORM ITEM -->
+          </div>
+          <!-- /FORM ROW -->
+        </form>
+        <!-- /FORM -->
+    
+        <!-- FORM TEXT -->
+        <p class="form-text">You'll receive a confirmation email in your inbox with a link to activate your account. If you have any problems, <a href="#">contact us</a>!</p>
+        <!-- /FORM TEXT -->
+      </div>
+      <!-- /FORM BOX -->
+    </div>
+    <!-- /LANDING FORM -->
+  </div>
+  <!-- /LANDING -->
+
+<!-- app -->
+<script src="app.bundle.min.js"></script>
+</body>
+
+<!-- Mirrored from odindesignthemes.com/vikinger-dark/badges.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Jul 2024 09:38:12 GMT -->
+</html>

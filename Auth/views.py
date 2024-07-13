@@ -16,7 +16,7 @@ def signup(request):
             return redirect('login')
     else:
         form = CreateUserForm()
-    return render(request, 'signup.html', {'form': form})
+    return render(request, 'front_v1/vikinger-dark/register.html', {'form': form})
 
 
 
@@ -33,10 +33,10 @@ def login(request):
             return redirect('success')
         else:
             messages.info(request, 'Username OR password is incorrect')
-            return render(request, 'login.html')
+            return render(request, 'front_v1/vikinger-dark/login.html')
 
     context = {}
-    return render(request, 'login.html', context)
+    return render(request, 'front_v1/vikinger-dark/login.html', context)
 
 @login_required(login_url='login')
 def success(request):
